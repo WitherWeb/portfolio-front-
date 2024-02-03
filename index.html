@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New Site</title>
+  <link rel="preload" href="fonts/Impact.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Verdana-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Verdana.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="overlay" data-menu-overlay></div>
+  <div class="site-container">
+    <header class="header">
+    <div class="header__navigation">
+      <div class="container">
+      <div class="header__top">
+        <a class="logo-link logo-link__header" href="">
+          <img class="logo" src="./img/logo.webp" alt="">
+        </a>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+          <span class="burger__line"></span>
+        </button>
+      <div class="header__top-info">
+        <form class="header__search d-none d-xl-block">
+          <input class="header__search-input input-reset" type="search" placeholder="Поиск">
+        </form>
+        <div class="header__contacts">
+          <a class="header__contacts-link header__contacts-text header__text" href="mailto:info@aodes40.ru">info@aodes40.ru</a>
+          <span class="header__contacts-text header__text">Пн-пт с 10:00 до 19:00</span>
+        </div>
+        <div class="header__msg">
+          <a class="header__msg-link header__msg-link--wa header__text" href="tel:88001012197">8 (800) 101-21-97</a>
+          <a class="header__msg-link header__text header__msg-link--tg" href="tel:89913287171">8 (991) 328-71-71</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="header__bottom">
+      <nav class="menu" data-menu>
+        <div class="menu__mob-top w-100 d-xl-none d-flex justify-content-between align-items-center">
+        <a class="logo-link logo-link__header order-1" href="">
+          <img class="logo" src="./img/logo.webp" width="132px" alt="">
+        </a>
+        <button class="burger burger-close order-2" aria-label="Закрыть меню" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+      <div class="line m-0"></div>
+      <div class="container">
+        <ul class="menu__list list-reset">
+          <li class="menu__item"><a href="./catalog.html" class="menu__link header__text" data-menu-item>Квадроциклы</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Багги</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Снегоходы</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Запчасти</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Аксессуары</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Экипировка</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Сервис</a></li>
+          <li class="menu__item"><a href="" class="menu__link header__text" data-menu-item>Контакты</a></li>
+        </ul>
+      </div>
+        <form class="header__search d-block d-xl-none">
+          <input class="header__search-input input-reset" type="search" placeholder="Поиск">
+        </form>
+      </nav>
+    </div>
+  </div>
+    </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container-full">
+    <div class="swiper hero__swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="hero__slide">
+            <div class="container h-100 d-md-flex d-block justify-content-center align-items-center">
+              <div class="hero__slide-info d-flex flex-md-row flex-column align-items-center justify-content-between gap-3">
+                <div class="text-md-start text-center">
+                  <h2 class="hero__title">Акция этого месяца! <br>
+                    Купите квадроцикл в нашей компании и получите кофр <span class="red-line d-mb-block d-none">в подарок!</span></h2>
+                  <a class="hero__link btn-style" href="">Выбрать</a>
+                </div>
+
+                <img class="hero__img" src="./img/Remove-bg 1.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero__slide">
+            <div class="container h-100 d-md-flex d-block justify-content-center align-items-center">
+              <div class="hero__slide-info d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="text-md-start text-center">
+                  <h2 class="hero__title">Акция этого месяца! <br>
+                    Купите квадроцикл в нашей компании и получите кофр <span class="red-line">в подарок!</span></h2>
+                  <a class="hero__link btn-style jsModalTrigger" href="#jsModal">Выбрать</a>
+                </div>
+                <img class="hero__img" src="./img/Remove-bg 1.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero__slide">
+            <div class="container h-100 d-md-flex d-block justify-content-center align-items-center">
+              <div class="hero__slide-info d-flex flex-md-row flex-column align-items-center justify-content-between">
+                <div class="text-md-start text-center">
+                  <h2 class="hero__title">Акция этого месяца! <br>
+                    Купите квадроцикл в нашей компании и получите кофр <span class="red-line">в подарок!</span></h2>
+                  <a class="hero__link btn-style jsModalTrigger" href="#jsModal">Выбрать</a>
+                </div>
+                <img class="hero__img" src="./img/Remove-bg 1.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__swiper-navigation">
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev-hero swiper-button-prev-style"><svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.292893 6.79289C-0.0976311 7.18342 -0.0976311 7.81658 0.292893 8.20711L6.65685 14.5711C7.04738 14.9616 7.68054 14.9616 8.07107 14.5711C8.46159 14.1805 8.46159 13.5474 8.07107 13.1569L2.41421 7.5L8.07107 1.84315C8.46159 1.45262 8.46159 0.819457 8.07107 0.428932C7.68054 0.0384078 7.04738 0.0384078 6.65685 0.428932L0.292893 6.79289ZM22 6.5H1V8.5H22V6.5Z" fill="white"/>
+          </svg>
+          </div>
+          <div class="swiper-pagination-hero pagination-style"></div>
+        <div class="swiper-button-next-hero swiper-button-next-style">
+          <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.7071 6.79289C22.0976 7.18342 22.0976 7.81658 21.7071 8.20711L15.3431 14.5711C14.9526 14.9616 14.3195 14.9616 13.9289 14.5711C13.5384 14.1805 13.5384 13.5474 13.9289 13.1569L19.5858 7.5L13.9289 1.84315C13.5384 1.45262 13.5384 0.819457 13.9289 0.428932C14.3195 0.0384078 14.9526 0.0384078 15.3431 0.428932L21.7071 6.79289ZM0 6.5H21V8.5H0V6.5Z" fill="white"/>
+            </svg>
+        </div>
+      </div>
+    </div>
+    <div class="hero__swiper-img-wrapper">
+    <div thumbsSlider="" class="swiper hero__swiper-img">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide">
+          <img class="hero__bg-1" src="./img/hero-img.webp" alt="">
+         </div>
+         <div class="swiper-slide">
+          <img class="hero__bg-1" src="./img/1644918620_17-fikiwiki-com-p-krasivie-kartinki-visokogo-razresheniya-19.webp" alt="">
+         </div>
+         <div class="swiper-slide">
+          <img class="hero__bg-1" src="./img/hero-img.webp" alt="">
+         </div>
+      </div>
+    </div>
+  </div>
+  <picture>
+    <source srcset="./img/vec-mob.png" media="(max-width: 767px)">
+    <img class="hero__bg-2" src="./img/hero-vec.png" alt="">
+  </picture>
+
+  </div>
+</section>
+
+      <section class="assortment">
+  <div class="container">
+    <div class="row">
+      <div class="assortment__card-wrapper col-lg-3 col-6 p-0">
+        <a href="" class="assortment__card">
+          <img class="assortment__card-img" src="./img/assortiment1.png" alt="">
+          <span class="assortment__card-text">Квадроциклы</span>
+        </a>
+      </div>
+      <div class="assortment__card-wrapper col-lg-3 col-6 p-0">
+        <a href="" class="assortment__card">
+          <img class="assortment__card-img" src="./img/assortiment2.png" alt="">
+          <span class="assortment__card-text">Запчасти</span>
+        </a>
+      </div>
+      <div class="assortment__card-wrapper col-lg-3 col-6 p-0">
+        <a href="" class="assortment__card">
+          <img class="assortment__card-img" src="./img/assortiment3.png" alt="">
+          <span class="assortment__card-text">Экипировка</span>
+        </a>
+      </div>
+      <div class="assortment__card-wrapper col-lg-3 col-6 p-0">
+        <a href="" class="assortment__card">
+          <img class="assortment__card-img" src="./img/assortiment4.png" alt="">
+          <span class="assortment__card-text">Аксессуары</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="catalog">
+  <div class="container">
+    <h2 class="catalog__title section-title">Лучшие предложения</h2>
+    <div class="row catalog__content">
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="" data-bs-toggle="modal" data-bs-target="#success">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="catalog__card">
+          <img class="catalog__card-img" src="./img/catalog-img.webp" alt="">
+          <span class="catalog__card-name">AODES PATHCROSS MAX 650</span>
+          <span class="catalog__card-descr">Двуместный; Белый; MARSWAY 26’</span>
+          <span class="catalog__card-prise">От 800 000 ₽</span>
+          <div class="d-flex align-items-center justify-content-between gap-3">
+            <button class="catalog__card-btn btn-reset modal-btn btn-style " data-bs-toggle="modal" data-bs-target="#application">Оставить заявку</button>
+            <a class="catalog__card-link btn-style-2" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="news">
+  <div class="container">
+    <div class="news__title-wrapper d-flex justify-content-between align-items-center">
+      <h2 class="news__title section-title">Новости и обзоры</h2>
+      <a class="news__all-link d-flex align-items-center justify-content-between gap-3 btn-style d-md-block d-none"
+        href="">Смотреть все <svg width="30" height="25" viewBox="0 0 30 25" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_13_53344)">
+            <path
+              d="M27.0295 13.1613L27.0295 6.13163C27.0295 5.36702 26.4092 4.74676 25.6446 4.74676L18.6111 4.75066C17.8465 4.75066 17.2262 5.37092 17.2262 6.13553C17.2262 6.90013 17.8465 7.52039 18.6111 7.52039L22.2819 7.51649L17.3198 12.4786L8.00024 12.4825C7.63354 12.4825 7.27855 12.6268 7.01718 12.8882L1.69616 18.2092C1.15392 18.7515 1.15782 19.6292 1.69616 20.1675C2.23841 20.7098 3.11614 20.7059 3.65448 20.1675L8.56979 15.2522L17.8933 15.2522C18.26 15.2522 18.615 15.1079 18.8763 14.8465L24.2598 9.46311L24.2598 13.1613C24.291 13.9259 24.9385 14.5189 25.707 14.4837C26.4209 14.4564 26.9983 13.8791 27.0295 13.1613Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_13_53344">
+              <rect width="24" height="30" fill="white" transform="translate(30 0.5) rotate(90)" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+    </div>
+    <div class="row row-gap-4">
+      <div class="col-lg-4 col-sm-6 col-12">
+        <a href="" class="news__card">
+          <img class="news__card-img" src="./img/news1.webp" alt="">
+          <div class="news__card-info">
+            <span class="news__card-date">21 февр. 2023</span>
+            <p class="news__card-news">Багги или квадроцикл –
+              что выбрать, в чем разница</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-12">
+        <a href="" class="news__card">
+          <img class="news__card-img" src="./img/news2.webp" alt="">
+          <div class="news__card-info">
+            <span class="news__card-date">21 февр. 2023</span>
+            <p class="news__card-news">Советы по выбору квадроцикла</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-12 mb-md-0 mb-5">
+        <a href="" class="news__card">
+          <img class="news__card-img" src="./img/news3.webp" alt="">
+          <div class="news__card-info">
+            <span class="news__card-date">21 февр. 2023</span>
+            <p class="news__card-news">Пять причин купить квадроцикл AODES</p>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <a class="news__all-link d-flex align-items-center justify-content-between gap-3 btn-style d-md-none d-block" href="">Смотреть все <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_13_53344)">
+      <path d="M27.0295 13.1613L27.0295 6.13163C27.0295 5.36702 26.4092 4.74676 25.6446 4.74676L18.6111 4.75066C17.8465 4.75066 17.2262 5.37092 17.2262 6.13553C17.2262 6.90013 17.8465 7.52039 18.6111 7.52039L22.2819 7.51649L17.3198 12.4786L8.00024 12.4825C7.63354 12.4825 7.27855 12.6268 7.01718 12.8882L1.69616 18.2092C1.15392 18.7515 1.15782 19.6292 1.69616 20.1675C2.23841 20.7098 3.11614 20.7059 3.65448 20.1675L8.56979 15.2522L17.8933 15.2522C18.26 15.2522 18.615 15.1079 18.8763 14.8465L24.2598 9.46311L24.2598 13.1613C24.291 13.9259 24.9385 14.5189 25.707 14.4837C26.4209 14.4564 26.9983 13.8791 27.0295 13.1613Z" fill="white"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_13_53344">
+      <rect width="24" height="30" fill="white" transform="translate(30 0.5) rotate(90)"/>
+      </clipPath>
+      </defs>
+      </svg>
+      </a>
+
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <div class="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between gap-5">
+      <div class="position-relative about__swiper-wrp">
+      <div class="swiper about__swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="about__slide">
+              <img class="about__img" src="./img/about-img1.webp" alt="">
+              <span class="about__product-name">AODES PATHCROSS MAX 650 <svg viewBox="0 0 23 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 0H0V62L23 41.5765V0Z" fill="#0F1423"/>
+                </svg>
+                </span>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="about__slide">
+              <img class="about__img" src="./img/about-img1.webp" alt="">
+              <span class="about__product-name">AODES PATHCROSS MAX 650 <svg viewBox="0 0 23 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 0H0V62L23 41.5765V0Z" fill="#0F1423"/>
+                </svg>
+                </span>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="about__slide">
+              <img class="about__img" src="./img/about-img1.webp" alt="">
+              <span class="about__product-name">AODES PATHCROSS MAX 650 <svg viewBox="0 0 23 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 0H0V62L23 41.5765V0Z" fill="#0F1423"/>
+                </svg>
+                </span>
+            </div>
+           </div>
+        </div>
+        <div class="about__swiper-navigation">
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-button-prev-about swiper-button-prev-style"><svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.292954 7.29289C-0.0975701 7.68342 -0.0975701 8.31658 0.292954 8.70711L6.65692 15.0711C7.04744 15.4616 7.6806 15.4616 8.07113 15.0711C8.46165 14.6805 8.46165 14.0474 8.07113 13.6569L2.41427 8L8.07113 2.34315C8.46165 1.95262 8.46165 1.31946 8.07113 0.928932C7.6806 0.538408 7.04744 0.538408 6.65692 0.928932L0.292954 7.29289ZM22.0001 7H1.00006V9H22.0001V7Z" fill="#0F1423"/>
+            </svg>
+            </div>
+            <div class="swiper-pagination pagination-style swiper-pagination-about"></div>
+          <div class="swiper-button-next swiper-button-next-about swiper-button-next-style">
+            <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.7072 7.29289C22.0977 7.68342 22.0977 8.31658 21.7072 8.70711L15.3432 15.0711C14.9527 15.4616 14.3195 15.4616 13.929 15.0711C13.5385 14.6805 13.5385 14.0474 13.929 13.6569L19.5858 8L13.929 2.34315C13.5385 1.95262 13.5385 1.31946 13.929 0.928932C14.3195 0.538408 14.9527 0.538408 15.3432 0.928932L21.7072 7.29289ZM6.10352e-05 7H21.0001V9H6.10352e-05V7Z" fill="#0F1423"/>
+              </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="about__info">
+        <h2 class="about__title section-title">О нас</h2>
+        <p class="about__info-text">
+          Добро пожаловать в AODES – компанию, специализирующуюся на продаже квадроциклов, багги и всего необходимого для них. Мы стремимся предложить нашим клиентам широкий выбор техники и аксессуаров высокого качества, чтобы каждый любитель активного отдыха мог найти здесь все, что ему нужно.
+          <br><br>
+В нашем каталоге вы найдете только самые надежные и современные модели квадроциклов и багги от ведущих мировых производителей. Большой ассортимент наших товаров позволит выбрать технику, отвечающую конкретным потребностям и требованиям каждого клиента. Будь то спокойные прогулки по бездорожью или экстремальная езда по скалистым трассам – с нами вы сможете найти идеальный вариант.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+    </main>
+
+    <div class="modal modal-success fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 p-0 pt-2">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body success__form-wrapper">
+          <div class="centered mb-4">
+            <img class="centered" src="./img/success-img.svg" alt="">
+          </div>
+          <h5 class="modal-success__title mb-2">Заявка оставлена!</h5>
+          <p class="modal-success__text mb-2">Пожалуйста, ждите звонка. Мы перезвоним в течение 20 минут!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal modal-application fade" id="application" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 mb-2">
+        <h5 class="modal-title section-title" id="exampleModalLabel">Оставить заявку</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body application__form-wrapper">
+        <form class="application__form" action="">
+          <input class="application__form-input input-reset" type="text" placeholder="Ваше имя">
+          <input class="application__form-input input-reset" type="tel" placeholder="+7 999 999 99 99">
+          <button type="submit" class="application__form-sub btn-reset btn-style">Перезвоните мне</button>
+          <span class="application__form-text">Мы свяжемся с вами в течение 20 минут.</span>
+        </form>
+        <img class="application__form-img" src="./img/application-img.webp" alt="">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper d-flex flex-lg-row flex-column align-items-center justify-content-between gap-xxl-0 gap-5">
+      <a class="logo-link d-block" href="">
+        <img class="logo" src="./img/logo.webp" alt="">
+      </a>
+      <div class="footer__content d-flex gap-md-0 justify-content-between flex-md-nowrap flex-wrap">
+        <ul class="footer__list footer__list-contacts list-reset">
+          <li class="footer__item">
+            <a class="footer__link footer__text" href="tel:88001012197">8 800-101-21-97</a>
+          </li>
+          <li class="footer__item">
+            <span class="footer__text">Пн-пт с 10:00 до 19:00</span>
+          </li>
+          <li class="footer__item d-inline">
+            <a href="" class="footer__link footer__text ">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 36C27.9435 36 36 27.9435 36 18C36 8.0565 27.9435 0 18 0C8.0565 0 0 8.0565 0 18C0 27.9435 8.0565 36 18 36ZM8.2365 17.61L25.5915 10.9185C26.397 10.6275 27.1005 11.115 26.8395 12.333L26.841 12.3315L23.886 26.253C23.667 27.24 23.0805 27.48 22.26 27.015L17.76 23.6985L15.5895 25.7895C15.3495 26.0295 15.147 26.232 14.682 26.232L15.0015 21.6525L23.3415 14.118C23.7045 13.7985 23.2605 13.6185 22.782 13.9365L12.4755 20.4255L8.0325 19.0395C7.068 18.7335 7.047 18.075 8.2365 17.61Z" fill="white"/>
+                </svg>
+            </a>
+            <a href="" class="footer__link footer__text px-2">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.0045 0H17.9955C8.07075 0 0 8.073 0 18C0 21.9375 1.269 25.587 3.42675 28.5503L1.1835 35.2373L8.10225 33.0255C10.9485 34.911 14.3438 36 18.0045 36C27.9292 36 36 27.9247 36 18C36 8.07525 27.9292 0 18.0045 0ZM28.4782 25.4182C28.044 26.6445 26.3205 27.6615 24.9457 27.9585C24.0052 28.1587 22.7768 28.3185 18.6413 26.604C13.3515 24.4125 9.945 19.0372 9.6795 18.6885C9.42525 18.3398 7.542 15.8422 7.542 13.2593C7.542 10.6763 8.85375 9.4185 9.3825 8.8785C9.81675 8.43525 10.5345 8.23275 11.223 8.23275C11.4458 8.23275 11.646 8.244 11.826 8.253C12.3547 8.2755 12.6202 8.307 12.969 9.14175C13.4032 10.188 14.4607 12.771 14.5868 13.0365C14.715 13.302 14.8433 13.662 14.6632 14.0108C14.4945 14.3708 14.346 14.5305 14.0805 14.8365C13.815 15.1425 13.563 15.3765 13.2975 15.705C13.0545 15.9908 12.78 16.2968 13.086 16.8255C13.392 17.343 14.4495 19.0687 16.0065 20.4548C18.0157 22.2435 19.6447 22.815 20.2275 23.058C20.6617 23.238 21.1793 23.1953 21.4965 22.8577C21.8993 22.4235 22.3965 21.7035 22.9028 20.9948C23.2628 20.4862 23.7173 20.4232 24.1943 20.6032C24.6803 20.772 27.252 22.0432 27.7808 22.3065C28.3095 22.572 28.6582 22.698 28.7865 22.9207C28.9125 23.1435 28.9125 24.1898 28.4782 25.4182Z" fill="white"/>
+                </svg>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__list footer__list-links list-reset">
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Квадроциклы
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Багги
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Снегоходы
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Запчасти
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Аксессуары
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Экипировка
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__list footer__list-links list-reset">
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              О нас
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Сервис
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Контакты
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link footer__text">
+              Новости
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </div>
+</body>
+</html>
